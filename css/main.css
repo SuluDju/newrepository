@@ -150,6 +150,16 @@ h2 {
     height: 52px;
     border: 0.8px solid #afb0b9;
     border-radius: 6px; }
+  .form input {
+    margin: 20px 20px 20px 0px;
+    width: 220px;
+    height: 52px;
+    border: 0.8px solid #afb0b9;
+    border-radius: 6px; }
+  .form input:hover {
+    border: 0.8px solid black; }
+  .form input:focus {
+    border: 0.8px solid blue; }
 
 .explore {
   width: 140px;
@@ -434,6 +444,9 @@ h2 {
     padding-right: 40px;
     padding-bottom: 40px; }
 
+@media screen and (max-width: 393px) {
+  .seven {
+    display: none; } }
 .man {
   padding-right: 60px;
   position: relative; }

@@ -42,7 +42,6 @@
   }
 }
 .form {
-  
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -60,6 +59,22 @@
     border: 0.8px solid #afb0b9;
     border-radius: 6px;
   }
+
+  input {
+    margin: 20px 20px 20px 0px;
+    width: 220px;
+    height: 52px;
+    border: 0.8px solid #afb0b9;
+    border-radius: 6px;
+  }
+
+  input:hover {
+    border: 0.8px solid black;
+  }
+
+  input:focus {
+    border: 0.8px solid blue;
+  }
 }
 .explore {
   width: 140px;
@@ -73,5 +88,5 @@
   color: #ffffff;
 }
 .oval {
-    padding-left: 450px;
+  padding-left: 450px;
 }

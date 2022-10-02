@@ -59,3 +59,9 @@ mix-blend-mode: normal;
         padding-bottom: 40px;
     }
 }
+
+@media screen and (max-width: 393px) {
+  .seven {
+    display: none;
+  }
+}
